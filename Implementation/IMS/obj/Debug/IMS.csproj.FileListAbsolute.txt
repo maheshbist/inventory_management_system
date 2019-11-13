@@ -29,3 +29,34 @@ E:\My docoment\L5DC Student kit\SEM_2\Computing Project\Project\CP Application\I
 E:\My docoment\L5DC Student kit\SEM_2\Computing Project\Project\CP Application\IMS\IMS\bin\Debug\IMS.test.pdb
 E:\My docoment\L5DC Student kit\SEM_2\Computing Project\Project\CP Application\IMS\IMS\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 E:\My docoment\L5DC Student kit\SEM_2\Computing Project\Project\CP Application\IMS\IMS\obj\Debug\IMS.csproj.CopyComplete
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\bin\Debug\IMS.exe.config
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\bin\Debug\IMS.exe
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\bin\Debug\IMS.pdb
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\bin\Debug\IMS.test.dll
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\bin\Debug\IMS.test.pdb
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.csprojAssemblyReference.cache
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.Categories.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.HomeScreen.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.login.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.MDI.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.products.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.Properties.Resources.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.PurchaseInvoice.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.PurchaseInvoiceDetails.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.Sales.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.Sample.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.Sample2.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.settings.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.Stocks.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.Supplier.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.Users.resources
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.csproj.GenerateResource.cache
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.csproj.CoreCompileInputs.cache
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.csproj.CopyComplete
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.exe
+E:\CP\Inventory Management System\inventory_management_system\Implementation\IMS\obj\Debug\IMS.pdb
