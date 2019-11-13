@@ -66,6 +66,7 @@ namespace IMS
 			// rightPanel
 			// 
 			this.rightPanel.Controls.Add(this.panel3);
+			this.rightPanel.ForeColor = System.Drawing.Color.Black;
 			this.rightPanel.Size = new System.Drawing.Size(870, 571);
 			this.rightPanel.Controls.SetChildIndex(this.panel1, 0);
 			this.rightPanel.Controls.SetChildIndex(this.panel3, 0);
@@ -113,62 +114,74 @@ namespace IMS
 			// 
 			// deleteBtn
 			// 
+			this.deleteBtn.BackColor = System.Drawing.Color.RoyalBlue;
 			this.deleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.deleteBtn.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.deleteBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.deleteBtn.FlatAppearance.BorderSize = 2;
 			this.deleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.deleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.deleteBtn.ForeColor = System.Drawing.Color.White;
 			this.deleteBtn.Location = new System.Drawing.Point(435, 3);
 			this.deleteBtn.Name = "deleteBtn";
 			this.deleteBtn.Size = new System.Drawing.Size(138, 49);
 			this.deleteBtn.TabIndex = 3;
 			this.deleteBtn.Text = "DELETE";
-			this.deleteBtn.UseVisualStyleBackColor = true;
+			this.deleteBtn.UseVisualStyleBackColor = false;
 			this.deleteBtn.Click += new System.EventHandler(this.deleteBtn_Click);
 			// 
 			// saveBtn
 			// 
+			this.saveBtn.BackColor = System.Drawing.Color.RoyalBlue;
 			this.saveBtn.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.saveBtn.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.saveBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.saveBtn.FlatAppearance.BorderSize = 2;
 			this.saveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.saveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.saveBtn.ForeColor = System.Drawing.Color.White;
 			this.saveBtn.Location = new System.Drawing.Point(291, 3);
 			this.saveBtn.Name = "saveBtn";
 			this.saveBtn.Size = new System.Drawing.Size(138, 49);
 			this.saveBtn.TabIndex = 2;
 			this.saveBtn.Text = "SAVE";
-			this.saveBtn.UseVisualStyleBackColor = true;
+			this.saveBtn.UseVisualStyleBackColor = false;
 			this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
 			// 
 			// editBtn
 			// 
+			this.editBtn.BackColor = System.Drawing.Color.RoyalBlue;
 			this.editBtn.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.editBtn.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.editBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.editBtn.FlatAppearance.BorderSize = 2;
 			this.editBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.editBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.editBtn.ForeColor = System.Drawing.Color.White;
 			this.editBtn.Location = new System.Drawing.Point(147, 3);
 			this.editBtn.Name = "editBtn";
 			this.editBtn.Size = new System.Drawing.Size(138, 49);
 			this.editBtn.TabIndex = 1;
 			this.editBtn.Text = "EDIT";
-			this.editBtn.UseVisualStyleBackColor = true;
+			this.editBtn.UseVisualStyleBackColor = false;
 			this.editBtn.Click += new System.EventHandler(this.editBtn_Click);
 			// 
 			// addBtn
 			// 
+			this.addBtn.BackColor = System.Drawing.Color.RoyalBlue;
 			this.addBtn.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.addBtn.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.addBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.addBtn.FlatAppearance.BorderSize = 2;
 			this.addBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.addBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.addBtn.ForeColor = System.Drawing.Color.White;
 			this.addBtn.Location = new System.Drawing.Point(3, 3);
 			this.addBtn.Name = "addBtn";
 			this.addBtn.Size = new System.Drawing.Size(138, 49);
 			this.addBtn.TabIndex = 0;
 			this.addBtn.Text = "ADD";
-			this.addBtn.UseVisualStyleBackColor = true;
+			this.addBtn.UseVisualStyleBackColor = false;
 			this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
 			// 
 			// groupBox1
@@ -194,17 +207,20 @@ namespace IMS
 			// 
 			// viewBtn
 			// 
+			this.viewBtn.BackColor = System.Drawing.Color.RoyalBlue;
 			this.viewBtn.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.viewBtn.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.viewBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.viewBtn.FlatAppearance.BorderSize = 2;
 			this.viewBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.viewBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.viewBtn.ForeColor = System.Drawing.Color.White;
 			this.viewBtn.Location = new System.Drawing.Point(579, 3);
 			this.viewBtn.Name = "viewBtn";
 			this.viewBtn.Size = new System.Drawing.Size(138, 49);
 			this.viewBtn.TabIndex = 5;
 			this.viewBtn.Text = "VIEW";
-			this.viewBtn.UseVisualStyleBackColor = true;
+			this.viewBtn.UseVisualStyleBackColor = false;
 			this.viewBtn.Click += new System.EventHandler(this.viewBtn_Click);
 			// 
 			// panel4
@@ -217,13 +233,13 @@ namespace IMS
 			// 
 			// backBtn
 			// 
-			this.backBtn.BackColor = System.Drawing.Color.Gray;
+			this.backBtn.BackColor = System.Drawing.Color.RoyalBlue;
 			this.backBtn.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.backBtn.Dock = System.Windows.Forms.DockStyle.Left;
 			this.backBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.backBtn.FlatAppearance.BorderSize = 3;
 			this.backBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.backBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.backBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.backBtn.Location = new System.Drawing.Point(0, 0);
 			this.backBtn.Name = "backBtn";
 			this.backBtn.Size = new System.Drawing.Size(78, 49);

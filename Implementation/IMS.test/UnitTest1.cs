@@ -36,5 +36,13 @@ namespace IMS.test
 			bool b = h.valid_username("mahesh111");
 			Assert.AreEqual(true, b);
 		}
+
+		[TestMethod]
+		public void valid_insertUser_test()
+		{
+			
+		}
+
+
 	}
 }

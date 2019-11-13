@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
 			this.label2 = new System.Windows.Forms.Label();
 			this.usernameTXt = new System.Windows.Forms.TextBox();
 			this.passTxt = new System.Windows.Forms.TextBox();
@@ -35,6 +36,7 @@
 			this.LoginBtn = new System.Windows.Forms.Button();
 			this.nameErrorLabel = new System.Windows.Forms.Label();
 			this.passErrorLabel = new System.Windows.Forms.Label();
+			this.label3 = new System.Windows.Forms.Label();
 			this.leftPanel.SuspendLayout();
 			this.panel2.SuspendLayout();
 			this.rightPanel.SuspendLayout();
@@ -51,7 +53,7 @@
 			this.leftPanel.Controls.Add(this.nameErrorLabel);
 			this.leftPanel.Controls.Add(this.passErrorLabel);
 			this.leftPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-			this.leftPanel.Size = new System.Drawing.Size(272, 444);
+			this.leftPanel.Size = new System.Drawing.Size(283, 582);
 			this.leftPanel.Controls.SetChildIndex(this.passErrorLabel, 0);
 			this.leftPanel.Controls.SetChildIndex(this.nameErrorLabel, 0);
 			this.leftPanel.Controls.SetChildIndex(this.panel2, 0);
@@ -64,33 +66,41 @@
 			// panel2
 			// 
 			this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-			this.panel2.Size = new System.Drawing.Size(272, 46);
+			this.panel2.Size = new System.Drawing.Size(283, 46);
 			// 
 			// rightPanel
 			// 
-			this.rightPanel.Location = new System.Drawing.Point(272, 0);
+			this.rightPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("rightPanel.BackgroundImage")));
+			this.rightPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.rightPanel.Controls.Add(this.label3);
+			this.rightPanel.Location = new System.Drawing.Point(283, 0);
 			this.rightPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-			this.rightPanel.Size = new System.Drawing.Size(843, 444);
+			this.rightPanel.Size = new System.Drawing.Size(955, 582);
+			this.rightPanel.Controls.SetChildIndex(this.panel1, 0);
+			this.rightPanel.Controls.SetChildIndex(this.label3, 0);
 			// 
 			// panel1
 			// 
 			this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-			this.panel1.Size = new System.Drawing.Size(843, 46);
+			this.panel1.Size = new System.Drawing.Size(955, 46);
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(77, 0);
+			this.label1.Location = new System.Drawing.Point(88, 0);
 			this.label1.Size = new System.Drawing.Size(195, 46);
 			// 
 			// userLabel
 			// 
-			this.userLabel.Size = new System.Drawing.Size(881, 46);
+			this.userLabel.BackColor = System.Drawing.Color.WhiteSmoke;
+			this.userLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.userLabel.ForeColor = System.Drawing.Color.Black;
+			this.userLabel.Size = new System.Drawing.Size(955, 46);
 			// 
 			// label2
 			// 
 			this.label2.AutoSize = true;
 			this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(8, 225);
+			this.label2.Location = new System.Drawing.Point(0, 224);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(87, 23);
 			this.label2.TabIndex = 1;
@@ -99,22 +109,22 @@
 			// usernameTXt
 			// 
 			this.usernameTXt.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.usernameTXt.Location = new System.Drawing.Point(12, 250);
+			this.usernameTXt.Location = new System.Drawing.Point(3, 250);
 			this.usernameTXt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.usernameTXt.MaxLength = 30;
 			this.usernameTXt.Name = "usernameTXt";
-			this.usernameTXt.Size = new System.Drawing.Size(254, 30);
+			this.usernameTXt.Size = new System.Drawing.Size(270, 30);
 			this.usernameTXt.TabIndex = 0;
 			this.usernameTXt.TextChanged += new System.EventHandler(this.usernameTXt_TextChanged);
 			// 
 			// passTxt
 			// 
 			this.passTxt.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.passTxt.Location = new System.Drawing.Point(12, 310);
+			this.passTxt.Location = new System.Drawing.Point(3, 310);
 			this.passTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.passTxt.MaxLength = 30;
 			this.passTxt.Name = "passTxt";
-			this.passTxt.Size = new System.Drawing.Size(254, 30);
+			this.passTxt.Size = new System.Drawing.Size(270, 30);
 			this.passTxt.TabIndex = 1;
 			this.passTxt.UseSystemPasswordChar = true;
 			this.passTxt.TextChanged += new System.EventHandler(this.passTxt_TextChanged);
@@ -123,7 +133,7 @@
 			// 
 			this.label4.AutoSize = true;
 			this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label4.Location = new System.Drawing.Point(8, 286);
+			this.label4.Location = new System.Drawing.Point(0, 285);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(80, 23);
 			this.label4.TabIndex = 3;
@@ -131,16 +141,17 @@
 			// 
 			// LoginBtn
 			// 
+			this.LoginBtn.BackColor = System.Drawing.Color.RoyalBlue;
 			this.LoginBtn.FlatAppearance.BorderSize = 2;
 			this.LoginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.LoginBtn.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.LoginBtn.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.LoginBtn.Location = new System.Drawing.Point(12, 351);
 			this.LoginBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.LoginBtn.Name = "LoginBtn";
-			this.LoginBtn.Size = new System.Drawing.Size(99, 40);
+			this.LoginBtn.Size = new System.Drawing.Size(124, 48);
 			this.LoginBtn.TabIndex = 2;
 			this.LoginBtn.Text = "Login";
-			this.LoginBtn.UseVisualStyleBackColor = true;
+			this.LoginBtn.UseVisualStyleBackColor = false;
 			this.LoginBtn.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// nameErrorLabel
@@ -167,12 +178,25 @@
 			this.passErrorLabel.Text = "*";
 			this.passErrorLabel.Visible = false;
 			// 
+			// label3
+			// 
+			this.label3.BackColor = System.Drawing.Color.Transparent;
+			this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
+			this.label3.Font = new System.Drawing.Font("Stencil", 30F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.ForeColor = System.Drawing.Color.DodgerBlue;
+			this.label3.Location = new System.Drawing.Point(0, 481);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(955, 101);
+			this.label3.TabIndex = 2;
+			this.label3.Text = "Inventory Management System";
+			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
 			// login
 			// 
 			this.AcceptButton = this.LoginBtn;
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1115, 444);
+			this.ClientSize = new System.Drawing.Size(1238, 582);
 			this.ControlBox = false;
 			this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.Name = "login";
@@ -195,5 +219,6 @@
 		private System.Windows.Forms.Button LoginBtn;
 		private System.Windows.Forms.Label nameErrorLabel;
 		private System.Windows.Forms.Label passErrorLabel;
+		protected System.Windows.Forms.Label label3;
 	}
 }

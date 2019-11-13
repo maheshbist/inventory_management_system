@@ -48,7 +48,7 @@
 			this.leftPanel.ForeColor = System.Drawing.Color.White;
 			this.leftPanel.Location = new System.Drawing.Point(0, 0);
 			this.leftPanel.Name = "leftPanel";
-			this.leftPanel.Size = new System.Drawing.Size(250, 537);
+			this.leftPanel.Size = new System.Drawing.Size(250, 479);
 			this.leftPanel.TabIndex = 0;
 			// 
 			// panel2
@@ -77,7 +77,7 @@
 			this.rightPanel.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.rightPanel.Location = new System.Drawing.Point(250, 0);
 			this.rightPanel.Name = "rightPanel";
-			this.rightPanel.Size = new System.Drawing.Size(783, 537);
+			this.rightPanel.Size = new System.Drawing.Size(668, 479);
 			this.rightPanel.TabIndex = 1;
 			// 
 			// panel1
@@ -86,7 +86,7 @@
 			this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
 			this.panel1.Location = new System.Drawing.Point(0, 0);
 			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(783, 49);
+			this.panel1.Size = new System.Drawing.Size(668, 49);
 			this.panel1.TabIndex = 0;
 			// 
 			// userLabel
@@ -104,7 +104,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1033, 537);
+			this.ClientSize = new System.Drawing.Size(918, 479);
 			this.Controls.Add(this.rightPanel);
 			this.Controls.Add(this.leftPanel);
 			this.Name = "Sample";
